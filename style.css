@@ -4,72 +4,6 @@
   --secondary-color: #b3dafb;
 }
 
-@media (max-width: 765px) {
-  .navbar-brand {
-    font-size: 16px;
-  }
-
-  .greeting,
-  .contact-me {
-    font-size: 35px;
-  }
-
-  .name,
-  .about-me {
-    font-size: 55px;
-  }
-
-  .tagline {
-    font-size: 20px;
-  }
-
-  .navigation-links {
-    text-align: center;
-  }
-
-  .card {
-    text-align: center;
-  }
-
-  .card-title {
-    font-size: 35px !important;
-  }
-
-  .app-cards img {
-    display: none;
-  }
-
-  .app-link {
-    display: block !important;
-    max-width: 100% !important;
-  }
-
-  .email-link {
-    font-size: 22px !important;
-  }
-
-  .card {
-    margin: 20px 0;
-    text-align: center;
-  }
-
-  .app-card {
-    padding: 10px;
-    border: solid 8px rgba(1, 90, 247, 0.3);
-    border-radius: 8px;
-  }
-
-  .weather-image {
-    margin: 30px 0;
-  }
-}
-
-/* @media (max-width: 765px) {
-  
-
- 
-} */
-
 body {
   margin: 100px auto;
   font-family: "Raleway", sans-serif;
@@ -108,7 +42,7 @@ h3 {
   margin: 50px 0;
   padding-bottom: 40px;
   border-bottom: solid 8px rgba(1, 90, 247, 0.3);
-  border-radius: 50px;
+  border-radius: 25px;
 }
 
 .card-title {
@@ -195,4 +129,72 @@ p {
 
 .nav-link:hover {
   font-weight: 600;
+}
+
+@media (min-width: 992px) {
+  .img-fluid {
+    max-width: 80% !important;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 765px) {
+  .navbar-brand {
+    font-size: 16px;
+  }
+
+  .greeting,
+  .contact-me {
+    font-size: 35px;
+  }
+
+  .name,
+  .about-me {
+    font-size: 55px;
+  }
+
+  .tagline {
+    font-size: 20px;
+  }
+
+  .navigation-links {
+    text-align: center;
+  }
+
+  .card {
+    text-align: center;
+  }
+
+  .card-title {
+    font-size: 35px !important;
+  }
+
+  .app-cards img {
+    display: none;
+  }
+
+  .app-link {
+    display: block !important;
+    max-width: 100% !important;
+  }
+
+  .email-link {
+    font-size: 22px !important;
+  }
+
+  .card {
+    margin: 20px 0;
+    text-align: center;
+  }
+
+  .app-card {
+    padding: 10px;
+    border: solid 8px rgba(1, 90, 247, 0.3);
+    border-radius: 15px;
+  }
+
+  .weather-image {
+    margin: 30px 0;
+  }
 }
