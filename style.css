@@ -4,7 +4,7 @@
   --secondary-color: #b3dafb;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 765px) {
   .navbar-brand {
     font-size: 16px;
   }
@@ -47,12 +47,6 @@
   .email-link {
     font-size: 22px !important;
   }
-}
-
-@media (max-width: 765px) {
-  .weather-image {
-    margin: 30px 0;
-  }
 
   .card {
     margin: 20px 0;
@@ -64,7 +58,17 @@
     border: solid 8px rgba(1, 90, 247, 0.3);
     border-radius: 8px;
   }
+
+  .weather-image {
+    margin: 30px 0;
+  }
 }
+
+/* @media (max-width: 765px) {
+  
+
+ 
+} */
 
 body {
   margin: 100px auto;
